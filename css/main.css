@@ -75,15 +75,15 @@ line-height: 1.4; }
   }
   .profile-pic img{ border-radius: 100px; max-width: 100%; }
   .hero{
-    background-image: url(../img/hero.jpg);
+    background-image: url('../img/hero.jpg');
     height: 400px;
     background-size: cover;
     background-position: center;
     text-transform: uppercase;
   }
-  .hero h1{ position: relative; margin-left: -30px;}
+  .hero h1{ position: relative; left: -30px;}
   .hero h2{ color: #faa541; }
-  .hero h1 h2{ font-size: 63px; font-weight: 700; line-height: 0.9px; }
+  .hero h1, .hero h2{ font-size: 63px; font-weight: 700; line-height: 0.9; }
   .hero p{ letter-spacing: 2px; font-weight: 700; font-size: 21px; margin: 0px 0px 10px;}
   .banner{
     margin: 55px 15px;
@@ -102,7 +102,7 @@ line-height: 1.4; }
    }
    .banner-text > div:last-child{
      font-size: 16px;
-     font=weight: 400;
+     font-weight: 400;
      margin-top: 5px;
    }
    .category{ flex: 0 0 25%; padding: 0 15px; }
