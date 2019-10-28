@@ -75,7 +75,7 @@ line-height: 1.4; }
   }
   .profile-pic img{ border-radius: 100px; max-width: 100%; }
   .hero{
-    background-image: url('../img/hero.jpg');
+    background-image: url('C:\Users\Administrator\Documents\GitHub\HTMLCSS-LandingPage\img\hero.jpg');
     height: 400px;
     background-size: cover;
     background-position: center;
